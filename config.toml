@@ -1,9 +1,9 @@
 title = "Notre-Dame de Paris"
+publishDir = "docs"
 baseURL = "https://sunshinebo.github.io/"
 languageCode = "en-us"
 theme = "ananke"
 #themesDir = "../.."
-publishDir = "docs"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
