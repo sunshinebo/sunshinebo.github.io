@@ -166,83 +166,84 @@
     </a>
   </div>
 
-      <h1 class="f1 athelas mt3 mb1">Chapter VI: Esmeralda</h1>
+      <h1 class="f1 athelas mt3 mb1">v2ray 使用简介</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2017-04-14T11:25:05-04:00">April 14, 2017</time>
+      <time class="f6 mv4 dib tracked" datetime="2017-04-14T11:25:05-04:00">Sunday, April 5, 2020</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>We are delighted to be able to inform the reader, that during the whole of
-this scene, Gringoire and his piece had stood firm. His actors, spurred on
-by him, had not ceased to spout his comedy, and he had not ceased to
-listen to it. He had made up his mind about the tumult, and was determined
-to proceed to the end, not giving up the hope of a return of attention on
-the part of the public. This gleam of hope acquired fresh life, when he
-saw Quasimodo, Coppenole, and the deafening escort of the pope of the
-procession of fools quit the hall amid great uproar. The throng rushed
-eagerly after them. “Good,” he said to himself, “there go all the
-mischief-makers.” Unfortunately, all the mischief-makers constituted the
-entire audience. In the twinkling of an eye, the grand hall was empty.</p>
-<p>To tell the truth, a few spectators still remained, some scattered, others
-in groups around the pillars, women, old men, or children, who had had
-enough of the uproar and tumult. Some scholars were still perched astride
-of the window-sills, engaged in gazing into the Place.</p>
-<p>“Well,” thought Gringoire, “here are still as many as are required to hear
-the end of my mystery. They are few in number, but it is a choice
-audience, a lettered audience.”</p>
-<p>An instant later, a symphony which had been intended to produce the
-greatest effect on the arrival of the Virgin, was lacking. Gringoire
-perceived that his music had been carried off by the procession of the
-Pope of the Fools. “Skip it,” said he, stoically.</p>
-<p>He approached a group of bourgeois, who seemed to him to be discussing his
-piece. This is the fragment of conversation which he caught,—</p>
-<p>“You know, Master Cheneteau, the Hôtel de Navarre, which belonged to
-Monsieur de Nemours?”</p>
-<p>“Yes, opposite the Chapelle de Braque.”</p>
-<p>“Well, the treasury has just let it to Guillaume Alixandre, historian, for
-six hivres, eight sols, parisian, a year.”</p>
-<p>“How rents are going up!”</p>
-<p>“Come,” said Gringoire to himself, with a sigh, “the others are
-listening.”</p>
-<p>“Comrades,” suddenly shouted one of the young scamps from the window, “La
-Esmeralda! La Esmeralda in the Place!”</p>
-<p>This word produced a magical effect. Every one who was left in the hall
-flew to the windows, climbing the walls in order to see, and repeating,
-“La Esmeralda! La Esmeralda?” At the same time, a great sound of applause
-was heard from without.</p>
-<p>“What’s the meaning of this, of the Esmeralda?” said Gringoire, wringing
-his hands in despair. “Ah, good heavens! it seems to be the turn of the
-windows now.”</p>
-<p>He returned towards the marble table, and saw that the representation had
-been interrupted. It was precisely at the instant when Jupiter should have
-appeared with his thunder. But Jupiter was standing motionless at the foot
-of the stage.</p>
-<p>“Michel Giborne!” cried the irritated poet, “what are you doing there? Is
-that your part? Come up!”</p>
-<p>“Alas!” said Jupiter, “a scholar has just seized the ladder.”</p>
-<p>Gringoire looked. It was but too true. All communication between his plot
-and its solution was intercepted.</p>
-<p>“The rascal,” he murmured. “And why did he take that ladder?”</p>
-<p>“In order to go and see the Esmeralda,” replied Jupiter piteously. “He
-said, ‘Come, here’s a ladder that’s of no use!’ and he took it.”</p>
-<p>This was the last blow. Gringoire received it with resignation.</p>
-<p>“May the devil fly away with you!” he said to the comedian, “and if I get
-my pay, you shall receive yours.”</p>
-<p>Then he beat a retreat, with drooping head, but the last in the field,
-like a general who has fought well.</p>
-<p>And as he descended the winding stairs of the courts: “A fine rabble of
-asses and dolts these Parisians!” he muttered between his teeth; “they
-come to hear a mystery and don’t listen to it at all! They are engrossed
-by every one, by Chopin Trouillefou, by the cardinal, by Coppenole, by
-Quasimodo, by the devil! but by Madame the Virgin Mary, not at all. If I
-had known, I’d have given you Virgin Mary; you ninnies! And I! to come to
-see faces and behold only backs! to be a poet, and to reap the success of
-an apothecary! It is true that Homerus begged through the Greek towns, and
-that Naso died in exile among the Muscovites. But may the devil flay me if
-I understand what they mean with their Esmeralda! What is that word, in
-the first place?—‘tis Egyptian!”</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+      <p>V2ray是继Shadowsocks(R)后又一个体验很棒、功能非常强大的科学上网工具，近年来受到网友的广泛关注和喜爱。本教程
+        详细介绍V2ray的特点，安装和配置过程，让读者能迅速上手和使用V2ray。在本文基础上，建议网友继续阅读 v2ray高级技
+        巧：流量伪装，体验更稳的上外网方式。v2ray客户端下载请访问：
+        <a href="https://github.com/Cenmrev/V2RayX/releases/download/v1.2.1/V2RayX.app.zip" class="color-inherit dim link">V2RayX客户端</a>。</p>
+        <h3 class="f1 athelas mt3 mb1">一.服务端安装和配置</h3>
+<p>首先你需要有一台位于境外的服务器，一顿操作服务器完成之后，打开mac终端使用ssh root@ip 然后输入密码进入服务器</p>
+  <p>1.下载go.sh：</p>
+  wget https://install.direct/go.sh
+  2.然后执行：
+  sudo bash go.sh
+  3.安装完之后，使用以下命令启动 V2Ray：
+  sudo systemctl start v2ray
+  </p>
+  <p>二.客户端安装
+
+  1.V2RayX下载客户端软件
+  https://github.com/Cenmrev/V2RayX/releases/download/v1.2.1/V2RayX.app.zip
+  下载完成后解压如果是mac用户需要把解压后的软件拖到Appaction中
+  更全面的下载地址，没尝试不知道可不可用
+  https://tlanyan.me/v2ray-clients-download/
+  
+  2.V2Ray一键安装脚本 自带图形化界面控制面板
+  在之前进入的ssh境外服务器中复制以下命令开始安装
+  wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/V2ray.Fun/master
+  /install.sh  && sudo bash install.sh
+  如果运行以上命令时，出现找不到wget的英文提示，则表示系统没有安装wget，根据系统不同，选择以下命令安装：
+  CentOS：
+  yum -y install wget
+  Ubuntu/Debian：
+  apt-get -y install wget
+  
+  3.V2Ray安装接近完成时，会提示输入用户名、密码、控制面板端口，可随意设置正常来说，V2Ray已经安装成功了，可以尝试
+  在浏览器打开控制面板地址，我目前没有出现特殊打不开的情况
+      地址：http://服务器ip:面板端口号
+      输入设置好的用户名密码
+  注意：
+  如果打不开可以复制下面命令
+  pip install Flask-BasicAuth
+  
+  4.以上命令运行完成后，我们再启动面板。服务器输入以下命令，然后选择1回车。如下图，提示V2ray.fun started，即表示
+  启动成功。
+  v2ray
+  注意：
+      如果出现权限问题请 sudo 一下（我这里提示已经启动啦）
+  
+  5.浏览器输入服务器IP 刚才设置的端口，访问V2Ray控制面板，输入用户名和密码登录，登录成功后的界面如下图所示：
+  各项连接参数都显示在运行状态菜单。最下面的Vmess链接和二维码图片，都可以用于客户端连接。
+  
+  进入控制面板网页版-》选择修改连接-》协议类型：vmess-》主机端口号：可以自行修改刷新-》UUID：可以刷新-》加密方式：
+  auto自动选择-》传输方式：TCP
+  
+  6.完成之后，去控制面板 “运行状态” 下载配置文件，下载之后文件类型改为config.json 格式
+  
+  7.点击桌面右上角的V2RayX图标，会弹出如下菜单，选择PAC Model -》点击Configure进入设置：
+  Local Socks5 Prot：默认（自行设置） ，UPD勾选， LAN选择性勾选
+  Local Http prot：默认
+  DNS：localhost
+  V2ray servers：选择导入把刚刚控制面板里的config.json导入到其中各个参数于控制面板对应，其中alterld如果没有的话
+  默认或者些100 ，level 0， NetWork选择 tcp 
+  点击ok 选择右上角图标load core 启动v2ray 至此完成
+  
+  2Ray控制面板打不开解决办法
+  
+  V2Ray.fun控制面板比较直观好用，但是部分情况下，会出现安装完成后，打不开控制面板的情况。其实前文已经提到过解决办法，这里再重复一次，方便单独出现此问题的朋友：
+  终端连接VPS购买的境外服务器，分别输入以下命令运行：
+  1. pip install Flask-BasicAuth
+  2. v2ray
+  3. 1
+  </p>
 <ul class="pa0">
   
 </ul>
