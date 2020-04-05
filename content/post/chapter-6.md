@@ -3,7 +3,7 @@ date: 2020-04-05T11:25:05-04:00
 description: "Sunday, April 5, 2020"
 featured_image: "/images/esmeralda.jpg"
 tags: []
-title: "v2ray 使用简介"
+title: "Chapter VI: Esmeralda"
 disable_share: false
 ---
 V2ray是继Shadowsocks(R)后又一个体验很棒、功能非常强大的科学上网工具，近年来受到网友的广泛关注和喜爱。本教程
