@@ -3,79 +3,79 @@ date: 2017-04-09T10:58:08-04:00
 description: "The Grand Hall"
 featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
 tags: ["scene"]
-title: "Chapter I: The Grand Hall"
+title: "I:v2ray"
 ---
 
-Three hundred and forty-eight years, six months, and nineteen days ago
-to-day, the Parisians awoke to the sound of all the bells in the triple
-circuit of the city, the university, and the town ringing a full peal.
+V2ray是继Shadowsocks(R)后又一个体验很棒、功能非常强大的科学上网工具，近年来受到网友的广泛关注和喜爱。本教程
+详细介绍V2ray的特点，安装和配置过程，让读者能迅速上手和使用V2ray。在本文基础上，建议网友继续阅读 v2ray高级技
+巧：流量伪装，体验更稳的上外网方式。v2ray客户端下载请访问：
+https://github.com/Cenmrev/V2RayX/releases/download/v1.2.1/V2RayX.app.zip。
 
-The sixth of January, 1482, is not, however, a day of which history has
-preserved the memory. There was nothing notable in the event which thus
-set the bells and the bourgeois of Paris in a ferment from early morning.
-It was neither an assault by the Picards nor the Burgundians, nor a hunt
-led along in procession, nor a revolt of scholars in the town of Laas, nor
-an entry of “our much dread lord, monsieur the king,” nor even a pretty
-hanging of male and female thieves by the courts of Paris. Neither was it
-the arrival, so frequent in the fifteenth century, of some plumed and
-bedizened embassy. It was barely two days since the last cavalcade of that
-nature, that of the Flemish ambassadors charged with concluding the
-marriage between the dauphin and Marguerite of Flanders, had made its
-entry into Paris, to the great annoyance of M. le Cardinal de Bourbon,
-who, for the sake of pleasing the king, had been obliged to assume an
-amiable mien towards this whole rustic rabble of Flemish burgomasters, and
-to regale them at his Hôtel de Bourbon, with a very “pretty morality,
-allegorical satire, and farce,” while a driving rain drenched the
-magnificent tapestries at his door.
+一.服务端安装和配置
 
-What put the “whole population of Paris in commotion,” as Jehan de Troyes
-expresses it, on the sixth of January, was the double solemnity, united
-from time immemorial, of the Epiphany and the Feast of Fools.
+首先你需要有一台位于境外的服务器，一顿操作服务器完成之后，打开mac终端使用ssh root@ip 然后输入密码进入服务器
+1.下载go.sh：
+wget https://install.direct/go.sh
+2.然后执行：
+sudo bash go.sh
+3.安装完之后，使用以下命令启动 V2Ray：
+sudo systemctl start v2ray
 
-On that day, there was to be a bonfire on the Place de Grève, a maypole at
-the Chapelle de Braque, and a mystery at the Palais de Justice. It had
-been cried, to the sound of the trumpet, the preceding evening at all the
-cross roads, by the provost’s men, clad in handsome, short, sleeveless
-coats of violet camelot, with large white crosses upon their breasts.
+二.客户端安装
 
-So the crowd of citizens, male and female, having closed their houses and
-shops, thronged from every direction, at early morn, towards some one of
-the three spots designated.
+1.V2RayX下载客户端软件
+https://github.com/Cenmrev/V2RayX/releases/download/v1.2.1/V2RayX.app.zip
+下载完成后解压如果是mac用户需要把解压后的软件拖到Appaction中
+更全面的下载地址，没尝试不知道可不可用
+https://tlanyan.me/v2ray-clients-download/
 
-Each had made his choice; one, the bonfire; another, the maypole; another,
-the mystery play. It must be stated, in honor of the good sense of the
-loungers of Paris, that the greater part of this crowd directed their
-steps towards the bonfire, which was quite in season, or towards the
-mystery play, which was to be presented in the grand hall of the Palais de
-Justice (the courts of law), which was well roofed and walled; and that
-the curious left the poor, scantily flowered maypole to shiver all alone
-beneath the sky of January, in the cemetery of the Chapel of Braque.
+2.V2Ray一键安装脚本 自带图形化界面控制面板
+在之前进入的ssh境外服务器中复制以下命令开始安装
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/V2ray.Fun/master
+/install.sh  && sudo bash install.sh
+如果运行以上命令时，出现找不到wget的英文提示，则表示系统没有安装wget，根据系统不同，选择以下命令安装：
+CentOS：
+yum -y install wget
+Ubuntu/Debian：
+apt-get -y install wget
 
-The populace thronged the avenues of the law courts in particular, because
-they knew that the Flemish ambassadors, who had arrived two days
-previously, intended to be present at the representation of the mystery,
-and at the election of the Pope of the Fools, which was also to take place
-in the grand hall.
+3.V2Ray安装接近完成时，会提示输入用户名、密码、控制面板端口，可随意设置正常来说，V2Ray已经安装成功了，可以尝试
+在浏览器打开控制面板地址，我目前没有出现特殊打不开的情况
+    地址：http://服务器ip:面板端口号
+    输入设置好的用户名密码
+注意：
+如果打不开可以复制下面命令
+pip install Flask-BasicAuth
 
-It was no easy matter on that day, to force one’s way into that grand
-hall, although it was then reputed to be the largest covered enclosure in
-the world (it is true that Sauval had not yet measured the grand hall of
-the Château of Montargis). The palace place, encumbered with people,
-offered to the curious gazers at the windows the aspect of a sea; into
-which five or six streets, like so many mouths of rivers, discharged every
-moment fresh floods of heads. The waves of this crowd, augmented
-incessantly, dashed against the angles of the houses which projected here
-and there, like so many promontories, into the irregular basin of the
-place. In the centre of the lofty Gothic* façade of the palace, the grand
-staircase, incessantly ascended and descended by a double current, which,
-after parting on the intermediate landing-place, flowed in broad waves
-along its lateral slopes,—the grand staircase, I say, trickled
-incessantly into the place, like a cascade into a lake. The cries, the
-laughter, the trampling of those thousands of feet, produced a great noise
-and a great clamor. From time to time, this noise and clamor redoubled;
-the current which drove the crowd towards the grand staircase flowed
-backwards, became troubled, formed whirlpools. This was produced by the
-buffet of an archer, or the horse of one of the provost’s sergeants, which
-kicked to restore order; an admirable tradition which the provostship has
-bequeathed to the constablery, the constablery to the _maréchaussée_,
-the _maréchaussée_ to our _gendarmeri_ of Paris.
+4.以上命令运行完成后，我们再启动面板。服务器输入以下命令，然后选择1回车。如下图，提示V2ray.fun started，即表示
+启动成功。
+v2ray
+注意：
+    如果出现权限问题请 sudo 一下（我这里提示已经启动啦）
+
+5.浏览器输入服务器IP 刚才设置的端口，访问V2Ray控制面板，输入用户名和密码登录，登录成功后的界面如下图所示：
+各项连接参数都显示在运行状态菜单。最下面的Vmess链接和二维码图片，都可以用于客户端连接。
+
+进入控制面板网页版-》选择修改连接-》协议类型：vmess-》主机端口号：可以自行修改刷新-》UUID：可以刷新-》加密方式：
+auto自动选择-》传输方式：TCP
+
+6.完成之后，去控制面板 “运行状态” 下载配置文件，下载之后文件类型改为config.json 格式
+
+7.点击桌面右上角的V2RayX图标，会弹出如下菜单，选择PAC Model -》点击Configure进入设置：
+Local Socks5 Prot：默认（自行设置） ，UPD勾选， LAN选择性勾选
+Local Http prot：默认
+DNS：localhost
+V2ray servers：选择导入把刚刚控制面板里的config.json导入到其中各个参数于控制面板对应，其中alterld如果没有的话
+默认或者些100 ，level 0， NetWork选择 tcp 
+点击ok 选择右上角图标load core 启动v2ray 至此完成
+
+2Ray控制面板打不开解决办法
+
+V2Ray.fun控制面板比较直观好用，但是部分情况下，会出现安装完成后，打不开控制面板的情况。其实前文已经提到过解决办法，这里再重复一次，方便单独出现此问题的朋友：
+终端连接VPS购买的境外服务器，分别输入以下命令运行：
+1. pip install Flask-BasicAuth
+2. v2ray
+3. 1
+
+
+
