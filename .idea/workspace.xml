@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23dc2c2-a301-4cb9-b33f-fbb00e737657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/chapter-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/chapter-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/chapter-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/chapter-3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/chapter-4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/chapter-5.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/chapter-6.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/post/chapter-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/post/chapter-1/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/post/chapter-1/index.html">
+        <entry file="file://$PROJECT_DIR$/docs/categories/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="199" column="88" lean-forward="true" selection-start-line="199" selection-start-column="88" selection-end-line="199" selection-end-column="88" />
+            <state relative-caret-position="468">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -47,6 +36,7 @@
         <option value="$PROJECT_DIR$/content/post/chapter-1.md" />
         <option value="$PROJECT_DIR$/content/post/chapter-6.md" />
         <option value="$PROJECT_DIR$/docs/post/chapter-1/index.html" />
+        <option value="$PROJECT_DIR$/docs/categories/index.html" />
       </list>
     </option>
   </component>
@@ -73,6 +63,12 @@
               <item name="lizongyang.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="lizongyang.com" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lizongyang.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lizongyang.com" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lizongyang.com" type="b2602c69:ProjectViewProjectNode" />
@@ -123,12 +119,12 @@
       <option name="presentableId" value="Default" />
       <updated>1586096979170</updated>
       <workItem from="1586096981449" duration="22000" />
-      <workItem from="1586097013373" duration="1170000" />
+      <workItem from="1586097013373" duration="3775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1192000" />
+    <option name="totallyTimeSpent" value="3797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1792" height="1097" extended-state="0" />
@@ -176,23 +172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/post/chapter-2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -208,16 +187,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="21">
             <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/chapter-1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -241,10 +210,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/chapter-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="84">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/post/chapter-1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="199" column="88" lean-forward="true" selection-start-line="199" selection-start-column="88" selection-end-line="199" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/categories/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
         </state>
       </provider>
     </entry>
